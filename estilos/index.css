@@ -39,15 +39,12 @@ section#celular{
    border-radius:58px;
     
 }
- section div{
-    position:absolute;
+ section iframe{
+    position:relative;
     height: 468px;
-    width: 252px;
-    background-image: url(../imagens/tela-home.jpg);
-    background-size: cover;
-    top: 12%;
-    left: 7%;
-    padding-left:12px;
-    padding-bottom: 8px;
-    padding-right:2.9px;
-}
+    width: 266px;
+     top: 80px;
+    left: 20px;
+    
+    
+   }
