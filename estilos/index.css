@@ -15,7 +15,7 @@ html,body{
 
 body{
     background-image: url(../imagens/fundo-madeira.jpg);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover ;
     width: 100vw;
@@ -43,10 +43,12 @@ section#celular{
 }
  section iframe{
     position:relative;
+    background-size: cover;
     height: 468px;
     width: 266px;
      top: 80px;
     left: 20px;
+    background-image: url(../imagens/tela-home.jpg);
     
     
    }
@@ -54,19 +56,23 @@ section#celular{
    #redes img{
     border-radius: 100px;
     width: 75px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px
+    5px rgba(0, 0, 0, 0.534);
+ }
+
+ #redes img:hover{
+    border: 2px solid whitesmoke;
+    transition: border .4s;
+    
+    
  }
 
    #redes{
-    position:relative;
+    position:absolute;
     background-color: rgba(165, 101, 42, 0.205);
     left: 88%;          
     top: 9%;
     width: 30px;
-
     
-            
-    
-
-
-
-   }
+ }
