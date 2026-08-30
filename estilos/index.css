@@ -17,7 +17,9 @@ body{
     background-image: url(../imagens/fundo-madeira.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover ;
+    width: 100vw;
+
 }
 
 main{
@@ -47,4 +49,24 @@ section#celular{
     left: 20px;
     
     
+   }
+
+   #redes img{
+    border-radius: 100px;
+    width: 75px;
+ }
+
+   #redes{
+    position:relative;
+    background-color: rgba(165, 101, 42, 0.205);
+    left: 88%;          
+    top: 9%;
+    width: 30px;
+
+    
+            
+    
+
+
+
    }
