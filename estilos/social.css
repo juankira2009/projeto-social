@@ -1,0 +1,41 @@
+@charset "utf-18"
+
+        
+
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+
+        ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        }
+        
+        img{
+            background-position: ;
+            background-size: cover;
+            width: 100vw;
+         }
+
+
+         a{
+            background-color:rgb(119, 32, 32);
+            color: crimson;
+            display: block;
+            padding: 10px;
+            width: 266px;
+            margin-right: 383px;
+            font-size: 35px;
+            text-decoration: none;
+            text-align: center;
+            box-sizing: border-box;
+            margin-top: -5px;
+            font-weight: bolder;
+            }
+
+            a:hover{
+                background-color: crimson;
+                color: rgb(119, 32, 32);
+                transition: background, color, .2s;
+            }
